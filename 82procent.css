@@ -1,0 +1,153 @@
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 1.3em; } }
+
+a {
+  color: #005BFC; }
+
+p.action a {
+  background-color: #fb004b;
+  color: #fff;
+  max-width: 400px;
+  display: inline-block;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 0 1em;
+  font-size: 1.4em;
+
+  font-weight: bold;
+}
+
+p.tagline {
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 8.2em;
+  margin-bottom: 0;
+  color: #fb004b;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+h2 {
+  margin-bottom: 1.5em; }
+  @media screen and (min-width: 650px) {
+    h2 {
+      font-size: 1.3em;
+      margin: 0 0 0.5em 0;
+      text-align: left; } }
+
+.signup h2 {
+  text-align: center;
+  color: #fb004b;
+}
+
+.signup .email {
+  font-size: 1.3em;
+  padding: 0.4em;
+  border: 2px solid #999;
+  border-radius: 4px;
+  margin: 0.5em 0;
+}
+
+.signup input.button {
+  background-color: #fb004b;
+  color: #fff;
+  max-width: 400px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  margin: 0 1em;
+  font-size: 1.4em;
+
+  font-weight: bold;
+}
+
+h3, h4 {
+  margin-top: 0; }
+
+p {
+  line-height: 1.5em;
+  margin: 0 0 1em 0; }
+
+img {
+  max-width: 100%; }
+
+header {
+  text-align: center;
+}
+
+article,
+div.signup {
+  margin: 2em auto;
+  max-width: 700px;
+  padding: 2em;
+
+}
+
+hr {
+  margin: 3em 0;
+}
+
+@media screen and (min-width: 700px) {
+  article {
+    margin-top: 6em; } }
+
+@media screen and (min-width: 1200px) {
+  article {
+    max-width: 900px; } }
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid #999;
+  margin: 3em 0 1em 0;
+  padding: 0 1em;
+}
+
+.signature {
+  font-size: 0.9em;
+  max-width: 60%;
+  margin-top: 0.5em;
+  display: inline-block;
+}
+
+.attention {
+  font-size: 150%;
+}
+
+.makeitpop {
+  border: 2px solid #ededed;
+  padding: 1em;
+  margin: 4em 0;
+}
+
+.makeitpop p {
+  margin: 0;
+}
+
+.mc-field-group label {
+  display: block;
+}
