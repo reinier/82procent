@@ -82,6 +82,8 @@ h2 {
 }
 
 .signup-succes {
+  display: inline-block;
+  max-width: 500px;
   padding: 1em;
   background-color: #ffc;
   border: #444;
