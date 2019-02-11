@@ -16,22 +16,23 @@
   <h1>82%</h1>
   <p class="tagline">Een nieuwsbrief vol dingen,<br><em>van Apple tot Zoolander,</em><br><strong>met al meer dan 1.000 abonnees.</strong></p>
 
-  <form
-    action="https://buttondown.email/api/emails/embed-subscribe/82procent"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/82procent', 'popupwindow')"
-    class="embeddable-buttondown-form"
-  >
-    <label for="bd-email">Enter your email</label>
-    <input type="email" name="email" id="bd-email">
-    <input type="hidden" value="1" name="embed"/>
-    <input type="submit" value="Subscribe" />
-    <p>
-      <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
-    </p>
-  </form>
-
+  <div class="signup">
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/82procent"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/82procent', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Schrijf je gratis in, je e-mail is voldoende</label>
+      <input type="email" name="email" id="bd-email">
+      <input type="hidden" value="1" name="embed"/>
+      <input type="submit" value="Subscribe" id="bd-submit" />
+      <p>
+        <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+      </p>
+    </form>
+  </div>
 
   <p><img src="welcome.jpg" alt="Welcome to the internet!" /></p>
 </header>
