@@ -84,6 +84,11 @@ h2 {
 .signup-succes {
   padding: 1em;
   background-color: #ffc;
+  border: #444;
+  
+  p {
+    margin-bottom: 0;
+  }
 }
 
 h3, h4 {
