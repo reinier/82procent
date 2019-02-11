@@ -85,10 +85,11 @@ h2 {
   padding: 1em;
   background-color: #ffc;
   border: #444;
-  
-  p {
-    margin-bottom: 0;
-  }
+  margin-bottom: 1em;
+}
+
+.signup-succes p {
+  margin-bottom: 0;
 }
 
 h3, h4 {
